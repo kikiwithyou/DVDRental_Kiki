@@ -83,7 +83,7 @@
 SELECT f.title, c.name as category_name, fc.category_id
 FROM film f 
 JOIN film_category fc ON fc.film_id = f.film_id
-INNER JOIN cateogry c ON c.category_id = fc.category_id
+INNER JOIN category c ON c.category_id = fc.category_id
 
 
 
